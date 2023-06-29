@@ -36,16 +36,20 @@
 
 ///  int,float, string,char,double,bool
 
+//// Example of Datatypes
 
-#include<iostream>
-using namespace std;
-int main(){
-	bool a=true; // where int is datatype and a is a variable name . NOTE varaible name can be anything.
+//#include<iostream>
+//using namespace std;
+//int main(){
+//	bool a; // where int is datatype and a is a variable name . NOTE varaible name can be anything.
 //	cin>>a;
-	cout<<a;
-	return 0;
-}
+//	cout<<a;
+//	return 0;
+//}
 
+/////conditions 
+
+/// syntax -> if(conditon),if(condition)else{},if(condition)elseif(condition),if(condition)elseif(condition)else{},
 
 
 
