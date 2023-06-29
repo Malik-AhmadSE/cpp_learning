@@ -40,7 +40,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	float a; // where int is datatype and a is a variable name . NOTE varaible name can be anything.
+	string a; // where int is datatype and a is a variable name . NOTE varaible name can be anything.
 	cin>>a;
 	cout<<a;
 	return 0;
