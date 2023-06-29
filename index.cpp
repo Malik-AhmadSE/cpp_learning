@@ -40,8 +40,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-	string a; // where int is datatype and a is a variable name . NOTE varaible name can be anything.
-	cin>>a;
+	bool a=true; // where int is datatype and a is a variable name . NOTE varaible name can be anything.
+//	cin>>a;
 	cout<<a;
 	return 0;
 }
