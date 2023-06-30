@@ -1,36 +1,20 @@
-// switch statement 
+//////////////////  Loops //////////
 
-/// if 
-/// else if 
-//// else if 
+///// use to iterate multiple times 
 
-////.....
-/// else 
+//// three types of loops 
 
-//////////////////////////// switch statement /////////////
+///1 . while loop
+/// 2 . do while loop
+/// 3. for loop and most important 
 
-/////  case 1, case 2 ,case 3, case 4
 
-////// syntax 
-
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main(){
-	int n;
-	cout<<"1. for opening jazz tune \n 2.for closing jazz tune ";
-	cin>>n;
-	switch(n){
-		case 1:
-			cout<<"jazz tune open";
-			break;
-		case 2:
-			cout<<"jazz tune close";
-			break;
-		default:
-			cout<<"No choice is selected";
-			break;			
+	int i=0;
+	while(i<5){
+		cout<<i<<" : Hello world"<<endl;
+		i=i+1;
 	}
 }
-
-
-
